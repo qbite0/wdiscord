@@ -1,0 +1,282 @@
+//META{"name":"WDiscord","description":"Amazing & clear anime theme for discord!","author":"qBite","version":"1.0"}*//
+/* ################ SkyDiscord ################## */
+/* ## Author: qBite // https://github.com/qbite0/ */
+/* ############################################## */
+
+/* ====================================================== */
+/* MAIN SETTINGS */
+/* ====================================================== */
+
+:root {
+  --title: "WDiscord";
+  --color: 0, 175, 255;
+  --hovercolor: #008ccc;
+  --background: url(https://raw.githubusercontent.com/qbite0/wdiscord/master/src/img/bg.jpg);
+  --opacity: 0.1;
+  --pattern0_1: 0.05; --pattern0_15: 0.1; --pattern0_2: 0.15; --pattern0_25: 0.2; --pattern0_3: 0.25; --pattern0_4: 0.35; --pattern0_5: 0.45;
+}
+
+body {
+  background: var(--background) !important;
+  background-size: cover !important;
+  height: 100vh !important;
+  background-repeat: no-repeat !important;
+}
+
+div[class*="layer"], div[class*="layer"]>div[class*="flex"], div[class*="channels"], div[class*="channels"]>div[class*="flex"], div.chat, div.content, #friends, .theme-dark .messages-wrapper .messages .divider:before {
+    background: none !important;
+}
+#app-mount {
+    background: rgba(0, 0, 0, var(--opacity)) !important;
+}
+
+/* ====================================================== */
+/* WINDOWS BAR */
+/* ====================================================== */
+
+div[class^="typeWindows"] {
+  margin: 0;
+  height: 25px;
+  background-color: rgb(var(--color));
+  opacity: 1;
+}
+
+div[class^="typeWindows"] div[class^="wordmark"] {
+  opacity: 1;
+}
+
+div[class^="typeWindows"] div[class^="wordmark"] svg {
+  display: none;
+}
+
+div[class^="typeWindows"] div[class^="wordmark"]::after {
+  content: var(--title);
+  color: #fff;
+  font-size: 15px;
+}
+
+div[class*="titleBar"] div[class*="winButton"] {
+  padding: 3.5px;
+  opacity: 1;
+}
+
+div[class*="titleBar"] div[class*="winButton"]:hover {
+  background: rgba(0, 0, 0, var(--pattern0_15))
+}
+
+div[class*="titleBar"] div[class*="winButtonClose"]:hover {
+  background-color: #E81123;
+}
+
+/* ====================================================== */
+/* DISCORD ELEMENTS */
+/* ====================================================== */
+
+div.sidebar-region, div.content-region, div.ui-standard-sidebar-view {
+  background: rgba(0, 0, 0, var(--pattern0_3)) !important;
+}
+div[class*="side"] div[class*="itemSelected"] {
+    background-color: rgb(var(--color));
+}
+button[class*="buttonBrandFilled"] {
+  background-color: rgb(var(--color));
+}
+button[class*="buttonBrandFilled"]:hover {
+  background-color: var(--hovercolor);
+}
+div[class*="valueChecked"] {
+  background-color: rgb(var(--color)) !important;
+}
+div.messages-wrapper, .chat form {
+    background: rgba(0, 0, 0, var(--pattern0_3)) !important;
+    margin: 0;
+}
+div[class*="innerEnabled"] {
+    background: rgba(0, 0, 0, var(--pattern0_3)) !important;
+    border-radius: 0;
+    margin: 5px;
+}
+div[class*="channelTextArea"] {
+    margin: 0;
+}
+div.private-channel-call, div.ui-video {
+    background: rgba(0, 0, 0, var(--pattern0_15)) !important;
+    border: 0;
+}
+div.guilds-wrapper {
+  background: rgba(0, 0, 0, var(--pattern0_5)) !important;
+}
+div.guild-inner {
+    background: rgba(0, 0, 0, var(--pattern0_15)) !important;
+}
+div.guilds-wrapper button.guilds-add {
+    color: #ffffff;
+    background: rgba(0, 0, 0, var(--pattern0_15));
+    border: 0;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+div.guilds-wrapper button.guilds-add:hover {
+    color: #ffffff;
+    background: rgba(0, 0, 0, var(--pattern0_15));
+    border: 0;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.guilds-wrapper .guild-separator:after {
+	background: none;
+}
+#friends div.friends-table {
+  margin-top: 0;
+  background: rgba(0, 0, 0, var(--pattern0_3)) !important;
+}
+div[class*="channels"]>div[class*="container"]:last-child {
+    background: rgba(0, 0, 0, var(--pattern0_5)) !important;
+    margin: 0;
+}
+div[style*="padding-top: 20px;"] {
+  background: rgba(0, 0, 0, var(--pattern0_4)) !important;
+}
+div.private-channels div.channel.selected a, div.private-channels div.channel.selected:hover a {
+    background: rgba(0, 0, 0, var(--pattern0_15)) !important;
+}
+div.badge {
+    background-color: rgba(var(--color), 0.8);
+}
+div.private-channels div.channel:hover a {
+    background: rgba(0, 0, 0, var(--pattern0_1)) !important;
+}
+div.private-channels>div.search-bar {
+  background: rgba(0, 0, 0, var(--pattern0_5)) !important;
+}
+#friends>div[class*="headerBar"] {
+  background: rgba(0, 0, 0, var(--pattern0_5)) !important;
+}
+div.theme-dark #friends div.tab-bar div.tab-bar-item:hover:not(.selected) {
+  background-color: rgba(0, 0, 0, var(--pattern0_2));
+  color: #ffffff;
+}
+div.theme-dark #friends div.tab-bar div.tab-bar-item.tab-bar-item-primary {
+  color: #fff;
+  background-color: rgba(var(--color), 0.8);
+  transition: 0.3s;
+}
+div.theme-dark #friends div.tab-bar div.tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
+  background-color: var(--hovercolor);
+  transition: 0.5s;
+}
+div[class*="titleCall-"] {
+  background: rgba(0, 0, 0, var(--pattern0_3));
+  box-shadow: 0 1px 0 0 rgba(0,0,0,0.06), inset 0 -1px 0 0 rgba(0,0,0,0.2);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.2), 0 2px 0 rgba(0,0,0,0.06);
+}
+div[class*="title"] div[class*="title-"] {
+  background: rgba(0, 0, 0, var(--pattern0_5));
+}
+div[class*="channels"]>div[class*="flex"] header {
+  background: rgba(0, 0, 0, var(--pattern0_5)) !important;
+}
+div[class*="channels"]>div[class*="flex"] [class*="scroller"] {
+  background: rgba(0, 0, 0, var(--pattern0_25)) !important;
+}
+.status-online {
+  background-color: rgb(var(--color));
+}
+.status-idle {
+  background-color: yellow;
+}
+.status-dnd {
+  background-color: red;
+}
+.status-offline {
+  background-color: grey;
+}
+.status-streaming {
+  background-color: purple;
+}
+div.friends-row {
+    background: none;
+    border: 0;
+}
+div.theme-dark #friends div.friends-table div.friends-row:hover, #friends div.friends-table div.friends-row:hover {
+    background: rgba(0, 0, 0, var(--pattern0_3));
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, var(--pattern0_2));
+}
+div.theme-dark #friends div.friends-table div.friends-row+.friends-row {
+    border: 0;
+}
+div.container-3lnMWU {
+    background: rgba(0, 0, 0, var(--pattern0_4)) !important;
+    border: 0;
+}
+div.theme-dark div.channel-members {
+    background: rgba(0, 0, 0, var(--pattern0_4));
+}
+div.theme-dark div.private-channel-call.minimum div.private-channel-call-actions div.center {
+    background: rgba(0, 0, 0, var(--pattern0_15)) !important;
+    border: 0;
+}
+div[class*="contentHoveredText"] {
+    background: rgba(0, 0, 0, var(--pattern0_2));
+}
+div[class*="contentHoveredVoice"] {
+    background: rgba(0, 0, 0, var(--pattern0_2));
+}
+div[class*="contentLockedVoice"]:hover {
+    background: rgba(0, 0, 0, var(--pattern0_2))
+}
+div[class*="nameDefault"], div[class*="nameLockedVoice"] {
+    color: #cacaca;
+}
+div[class*="nameHovered"] {
+    color: #fff;
+}
+div[class*="contentSelectedText"] {
+    background: rgba(0, 0, 0, var(--pattern0_3));
+}
+div.member-username>span[class*="botTagRegular"] {
+    background: rgb(var(--color));
+}
+.theme-dark .channel-members h2 {
+    color: #cacaca;
+}
+.theme-dark [class*="embedInner"] {
+    border: 0;
+    background: rgba(0, 0, 0, var(--pattern0_25))
+}
+.theme-dark .message-group a {
+	color: rgb(var(--color));
+}
+.channel-members .member {
+    margin: 0 5px 0 15px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.theme-dark .channel-members .member:hover {
+    background: rgba(0, 0, 0, var(--pattern0_2));
+}
+.channel-members .member .member-activity-text {
+    color: #cacaca;
+}
+.theme-dark .messages-wrapper .messages .divider:not(.red) div {
+    background: none;
+}
+.theme-dark .friends-table .messages .divider:before, .theme-dark .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span {
+    background-color: rgba(0, 0, 0, var(--pattern0_25));
+}
+.theme-dark .messages-wrapper .messages .divider:not(.red) span {
+    color: #cacaca;
+}
+.scroller::-webkit-scrollbar-thumb {
+  background: rgba(var(--color), 0.8) !important;
+  border: 0 !important;
+}
+.scroller::-webkit-scrollbar {
+  width: 6px !important;
+}
+.scroller::-webkit-scrollbar-track-piece{
+  background: rgba(0, 0, 0, var(--pattern0_2)) !important;
+  border: 0 !important;
+}

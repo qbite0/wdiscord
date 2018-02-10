@@ -269,6 +269,18 @@ div.member-username>span[class*="botTagRegular"] {
 .theme-dark .messages-wrapper .messages .divider:not(.red) span {
     color: #cacaca;
 }
+.theme-dark .private-channel-call {
+    background: none;
+}
+div[class*="video-"] {
+    background: rgba(0,0,0,0.2);
+}
+button[class*="buttonGreenFilled"] {
+    background: rgb(var(--color));
+}
+button[class*="buttonGreenFilled"]:hover {
+    background: var(--hovercolor);
+}
 .scroller::-webkit-scrollbar-thumb {
   background: rgba(var(--color), 0.8) !important;
   border: 0 !important;

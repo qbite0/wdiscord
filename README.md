@@ -3,6 +3,7 @@ Amazing &amp; clear anime theme for discord!
 
 ## Download
 [RELEASES](https://github.com/qbite0/wdiscord/releases) or you can [DOWNLOAD](https://github.com/qbite0/wdiscord/releases/download/1.0/wdiscord.theme.css) latest version from GitHub
+* [Install guide](https://github.com/qbite0/wdiscord/wiki/How-to-install)
 
 ## Features
 You can change this

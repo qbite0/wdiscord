@@ -281,6 +281,40 @@ button[class*="buttonGreenFilled"] {
 button[class*="buttonGreenFilled"]:hover {
     background: var(--hovercolor);
 }
+.theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code {
+    background: rgba(0, 0, 0, var(--pattern0_3));
+}
+.theme-dark .message-group .comment .markup pre {
+    border: 0;
+    background: 0;
+}
+.theme-dark .hljs {
+    color: #cacaca;
+}
+.theme-dark .hljs-addition, .theme-dark .hljs-keyword, .theme-dark .hljs-selector-tag {
+    color: #00ff53;
+}
+.theme-dark .hljs-name, .theme-dark .hljs-section, .theme-dark .hljs-selector-class, .theme-dark .hljs-selector-id, .theme-dark .hljs-title {
+    color: #0096ff;
+}
+.theme-dark .hljs-attr, .theme-dark .hljs-attribute, .theme-dark .hljs-class .hljs-title, .theme-dark .hljs-template-variable, .theme-dark .hljs-type, .theme-dark .hljs-variable {
+    color: #ffc100;
+}
+.theme-dark .hljs-bullet, .theme-dark .hljs-link, .theme-dark .hljs-meta, .theme-dark .hljs-meta .hljs-keyword, .theme-dark .hljs-selector-attr, .theme-dark .hljs-selector-pseudo, .theme-dark .hljs-subst, .theme-dark .hljs-symbol {
+    color: #ff4b00;
+}
+.theme-dark .hljs-built_in, .theme-dark .hljs-deletion {
+    color: #ff0400;
+}
+.theme-dark .hljs-doctag, .theme-dark .hljs-literal, .theme-dark .hljs-meta .hljs-meta-string, .theme-dark .hljs-number, .theme-dark .hljs-regexp, .theme-dark .hljs-string {
+    color: #00ffec;
+}
+.theme-dark .hljs-doctag, .theme-dark .hljs-literal, .theme-dark .hljs-meta .hljs-meta-string, .theme-dark .hljs-number, .theme-dark .hljs-regexp, .theme-dark .hljs-string {
+    color: #1bd6c8;
+}
+.theme-dark .hljs-comment, .theme-dark .hljs-quote {
+    color: #919ea3;
+}
 .scroller::-webkit-scrollbar-thumb {
   background: rgba(var(--color), 0.8) !important;
   border: 0 !important;

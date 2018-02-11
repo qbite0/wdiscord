@@ -325,6 +325,10 @@ button[class*="buttonGreenFilled"]:hover {
 .private-channels .channel .channel-activity {
     color: #cacaca;
 }
+.theme-dark .message-group .comment .markup {
+    color: #fff;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
 .scroller::-webkit-scrollbar-thumb {
   background: rgba(var(--color), 0.8) !important;
   border: 0 !important;

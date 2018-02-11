@@ -315,6 +315,16 @@ button[class*="buttonGreenFilled"]:hover {
 .theme-dark .hljs-comment, .theme-dark .hljs-quote {
     color: #919ea3;
 }
+.private-channels .channel .channel-name {
+    color: #cacaca;
+    opacity: 1;
+}
+.private-channels .channel:hover .channel-name {
+    color: #ffffff;
+}
+.private-channels .channel .channel-activity {
+    color: #cacaca;
+}
 .scroller::-webkit-scrollbar-thumb {
   background: rgba(var(--color), 0.8) !important;
   border: 0 !important;

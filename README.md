@@ -1,5 +1,7 @@
 # wdiscord
 Amazing &amp; clear anime theme for discord!
+## Links
+WDiscord on [BetterDocs](https://betterdocs.net/collections/themes/products/wdiscord)!
 
 ## Download
 [RELEASES](https://github.com/qbite0/wdiscord/releases) or you can [DOWNLOAD](https://github.com/qbite0/wdiscord/releases/download/1.0/wdiscord.theme.css) latest version from GitHub

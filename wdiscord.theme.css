@@ -418,3 +418,14 @@ div[class*="slider"]>[class*="bar"] {
     color: rgb(var(--color));
     text-shadow: 0 0 20px rgba(0, 0, 0, 1);
 }
+.theme-dark [class*="typing"] {
+    background: none;
+    bottom: 45px;
+    left: 7px;
+}
+.theme-dark [class*="ellipsis"] {
+    display: none;
+}
+.theme-dark [class*="typing"] span {
+    color: #ffffff;
+}

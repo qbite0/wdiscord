@@ -429,3 +429,25 @@ div[class*="slider"]>[class*="bar"] {
 .theme-dark [class*="typing"] span {
     color: #ffffff;
 }
+.member-username-inner {
+    text-shadow: 0.1px 0.1px 1px black;
+}
+.chat .avatar-large {
+    border: 2.5px solid rgba(var(--color), 0.5);
+    border-radius: 20%;
+    transition: 0s;
+    background-color: rgba(0, 0, 0, var(--pattern0_2));
+}
+.channel-members .avatar-small {
+    border: 1px solid rgba(var(--color), 0.5);
+    border-radius: 20%;
+}
+[class*="container-"] > .avatar-small {
+    border: 2px solid rgba(0, 0, 0, var(--pattern0_2));
+    border-radius: 20%; 
+}
+
+.theme-dark .message-group h2 strong {
+    color: rgb(var(--color));
+    text-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}

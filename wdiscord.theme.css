@@ -236,7 +236,7 @@ div[class*="nameHovered"] {
 div[class*="contentSelectedText"] {
     background: rgba(0, 0, 0, var(--pattern0_3));
 }
-div.member-username>span[class*="botTagRegular"] {
+span[class*="botTagRegular"] {
     background: rgb(var(--color));
 }
 .theme-dark .channel-members h2 {

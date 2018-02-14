@@ -401,3 +401,20 @@ div[class*="slider"]>[class*="bar"] {
     display: none;
     color: #cacaca;
 }
+.chat [class*="base"] h1 {
+    color: #cacaca;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+[class*="welcomeMessage"] p {
+    color: #cacaca;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+.app [class*="welcomeMessage"] h1 {
+    color: rgb(var(--color));
+    line-height: 20px;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+.theme-dark [class*="welcomeMessage"] a {
+    color: rgb(var(--color));
+    text-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}

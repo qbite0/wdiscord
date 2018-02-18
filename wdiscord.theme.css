@@ -451,3 +451,9 @@ div[class*="slider"]>[class*="bar"] {
     color: rgb(var(--color));
     text-shadow: 0 0 20px rgba(0, 0, 0, 1);
 }
+[class*="lookFilled"][class*="colorBrand"], [class*="lookFilled"][class*="colorGreen"] {
+    background-color: rgb(var(--color));
+}
+[class*="lookFilled"][class*="colorBrand"]:hover, [class*="lookFilled"][class*="colorGreen"]:hover {
+    background-color: var(--hovercolor);
+}

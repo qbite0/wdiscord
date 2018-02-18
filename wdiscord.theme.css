@@ -457,3 +457,10 @@ div[class*="slider"]>[class*="bar"] {
 [class*="lookFilled"][class*="colorBrand"]:hover, [class*="lookFilled"][class*="colorGreen"]:hover {
     background-color: var(--hovercolor);
 }
+[class*="container-"] .status, .private-channels .status, .private-channels .channel.selected .status {
+    border-color: rgba(0, 0, 0, var(--pattern0_2)) !important;
+}
+a > .avatar-small {
+    border: 2px solid rgba(0, 0, 0, var(--pattern0_2));
+    border-radius: 20%; 
+}

@@ -470,3 +470,25 @@ a > .avatar-small {
 .theme-dark .system-message {
     color: #dadada;
 }
+div[class*="wrapper-"] button {
+    background-color: rgb(var(--color));
+}
+div[class*="wrapper-"] button:hover {
+    background-color: var(--hovercolor);
+}
+.theme-dark [class*="wrapper-"] {
+    color: #dadada;
+}
+.theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
+    background: rgba(0, 0, 0, var(--pattern0_2));
+    color: #cacaca
+}
+.theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn:hover {
+    background: rgba(0, 0, 0, var(--pattern0_25));
+    color: #cacaca
+}
+.theme-dark .messages-wrapper .messages .message-group-blocked, .theme-dark .messages-wrapper .messages .message-group-blocked.revealed {
+    background: rgba(0, 0, 0, var(--pattern0_25));
+    border: none;
+    box-shadow: none;
+}

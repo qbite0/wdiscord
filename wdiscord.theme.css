@@ -447,7 +447,7 @@ div[class*="slider"]>[class*="bar"] {
     border-radius: 20%; 
 }
 
-.theme-dark .message-group h2 strong {
+.theme-dark .message-group h2 strong, .theme-dark .system-message .system-message-content a {
     color: rgb(var(--color));
     text-shadow: 0 0 20px rgba(0, 0, 0, 1);
 }
@@ -463,4 +463,10 @@ div[class*="slider"]>[class*="bar"] {
 a > .avatar-small {
     border: 2px solid rgba(0, 0, 0, var(--pattern0_2));
     border-radius: 20%; 
+}
+.theme-dark .message-group h2 .timestamp {
+    color: #dadada;
+}
+.theme-dark .system-message {
+    color: #dadada;
 }

@@ -464,7 +464,7 @@ a > .avatar-small {
     border: 2px solid rgba(0, 0, 0, var(--pattern0_2));
     border-radius: 20%; 
 }
-.theme-dark .message-group h2 .timestamp {
+.theme-dark .message-group h2 .timestamp, .theme-dark .system-message .system-message-timestamp {
     color: #dadada;
 }
 .theme-dark .system-message {
